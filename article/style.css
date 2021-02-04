@@ -1,0 +1,59 @@
+body {
+	background-color: honeydew;
+	margin:35px;
+	font-family: Andale Mono, monospace;
+	letter-spacing: -1pt;
+}
+
+ul {
+	font-size: 15px;
+	background-color: darkslategrey;
+	color:white;
+	font-style:italic;
+	display:inline-block;
+	padding:5px;
+	text-align:center;
+	line-height:20px;
+}
+
+h1 {
+	color:darkslategrey;
+	text-shadow: tan 1px 1px;
+}
+h3 {
+	color:lightslategrey;
+}
+h4 {
+	font-style: italic;
+}
+
+img {
+	border: 3px ridge tan;
+	margin:10px;
+}
+
+hr {
+	border-color: tan;
+}
+
+p.answer {
+	color: darkslategrey;
+	background-color: lightslategray;
+	display: inline-block;
+	border: 2px ridge;
+	padding: 5px 10px 5px 10px;
+	margin-top:-1px;
+	margin-bottom:10px;
+	width: 90%;
+}
+p.q {
+	font-size: 20px;
+	text-shadow: tan 1px 1px;
+	display: inline-block;
+	width: 75%;
+}
+.emphasis {
+	color:tan;
+	font-weight: bolder;
+	font-size: larger;
+}
