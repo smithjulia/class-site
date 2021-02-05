@@ -1,0 +1,105 @@
+body{
+background-color: #000;
+text-align: center;}
+
+#wrapper{
+width: 900px;
+margin: 0 auto;
+position: relative;}
+
+#blackbar{
+width: 900px
+height: 100px;
+position: absolute;
+top: 0;
+left:0;
+z-index: 1000;}
+
+a:link, a:visited, a:hover, a:active;{
+border: none;}
+
+a img{
+border: none;}
+
+a:active {
+  outline: none;}
+
+a:active {
+  outline: none;}
+
+:focus {
+  -moz-outline-style: none;}
+
+
+
+/* LOGOS */
+#header{
+position: absolute;
+z-index: 1;
+top: 125px;
+left: 80px;}
+
+.logo{
+float: left;}
+
+#acqua{
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.acquaBW, .acquaC{
+position: absolute;
+top:0;
+left: 0;}
+
+#med{
+position: absolute;
+top: 15px;
+left: 158px;}
+
+.medBW, .medC{
+position: absolute;
+top:0;
+left: 0;}
+
+#terra{
+position: absolute;
+top: 10px;
+left: 323px;}
+
+.terraBW, .terraC{
+position: absolute;
+top:0;
+left: 0;}
+
+#sole{
+position: absolute;
+top: 5px;
+left: 498px;}
+
+#aurora{
+position: absolute;
+top: 27px;
+left: 645px;}
+
+
+
+
+
+/* SLIDES */
+#slides{
+position: relative;}
+
+.slide{
+position: absolute;
+top: 0px;
+left: 0px;}
+
+#slide2, #slide3, #slide4, #slide5, #slide6{
+display: none;}
+
+/*
+#slide1{
+display: none;}
+*/

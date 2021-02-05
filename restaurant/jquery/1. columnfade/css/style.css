@@ -1,0 +1,38 @@
+#wrapper {
+width: 960px;
+background-color: #FFF;
+margin-left:auto;
+margin-right:auto;
+}
+
+header {
+height: 250px;
+}
+
+nav {
+width:960px;
+}
+
+/*FLOAT NAVIGATION*/
+
+/*nav li {
+float: left;
+margin-right: 2em;
+}*/
+
+
+#content {
+float: left;
+width:660px;
+
+}
+
+#rightcol {
+float: left;
+width: 300px;
+}
+
+footer {
+clear:both;
+height: 50px;
+}
