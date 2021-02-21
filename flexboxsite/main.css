@@ -1,0 +1,122 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: yellow;
+}
+
+.container {
+	background: #F7B900;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-items: center;
+}
+.eyebox {
+	flex-flow: row nowrap;
+	width: 100%;
+	height:33%;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding:40px;
+	display: flex;
+}
+.eye {
+	width: 130px;
+	height: 130px;
+	border-radius: 120px;
+	background:black;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	align-content: flex-start;
+	padding:10px;
+}
+.pupil {
+	background:white;
+	padding:20px;
+	margin: 5px;
+	border-radius: 120px;
+}
+.nose {
+	width: 40px;
+	height: 15px;
+	background:black;
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.spotbox {
+	flex-flow: row nowrap;
+	width: 80%;
+	height:33%;
+	justify-content: space-between;
+	align-items: flex-start;
+	display: flex;
+/*	padding-right: 60px;
+	padding-left: 60px;*/
+}
+.spot {
+	width: 100px;
+	height: 100px;
+	border-radius: 90px;
+	background:red;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	align-content: flex-start;
+}
+.mouthbox {
+	flex-flow: row nowrap;
+	width: 100%;
+	height:10%;
+	justify-content: center;
+	align-items: flex-start;
+	display: flex;
+
+}
+.mouth {
+	/*width: 60px;
+	height: 35px;
+	background:black;
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;*/
+	width: 90px;
+      height: 30px;
+      border: black solid 7px;
+ 	border-radius: 0 0 60px 60px;
+      /*box-shadow: 0 2px 0 12px black;*/
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+.left {
+	border-color: transparent black black transparent;
+}
+.right {
+	border-color: transparent transparent black black;
+}
+.chin {
+	width: 50px;
+	height: 15px;
+	background: #e69e05;
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
