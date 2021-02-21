@@ -3,7 +3,6 @@
 }
 body {
   margin: 0;
-  background: yellow;
 }
 
 .container {
@@ -93,7 +92,7 @@ body {
 	border-top-right-radius: 5px;*/
 	width: 90px;
       height: 30px;
-      border: black solid 7px;
+      border: black solid 6px;
  	border-radius: 0 0 60px 60px;
       /*box-shadow: 0 2px 0 12px black;*/
 	flex-direction: row;
