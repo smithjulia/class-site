@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  margin: 20px;
+  background: maroon;
+  font-size: 24pt;
+  text-align: center;
+}
+.special {
+	color: lavender;
+	font-style: italic;
+	font-size: larger;
+	cursor: url("img/beancopy.png"), auto;
+}
+.beans {
+	width: 300px;
+	position: absolute;
+	top: 150px;
+	left: 100px;
+	display: none;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 50%;
+}
+
+.special:hover .beans {
+	display: block;
+}
+
+.circle {
+	background: brown;
+	width: 30px;
+	height: 60px;
+	border-radius:30px;
+	position: absolute;
+	bottom: 200px;
+	right:200px;
+	border: 0 1px 1px 0;
+	border-color: transparent tan tan transparent;
+	border-style: solid;
+	transition: transform 10s ease, border-radius 5s 2s ease, background 2s, border-color 3s, border 3s;
+}
+.circle:hover {
+	transform: scale(5) rotate(360deg);
+	border-radius: 10px;
+	background: tan;
+	border-color: transparent brown brown transparent;
+	 border: 0 1px 1px 0;
+}
