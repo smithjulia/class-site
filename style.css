@@ -11,7 +11,7 @@ a {
 a:active {
 	color: #e5e5fd;
 }
-ul {
+ul.about {
 	list-style-type: none;
 	font-size: 10pt;
 	background: white;
@@ -19,6 +19,27 @@ ul {
 	font-style: italic;
 	padding: 7px;
 	margin: 7px;
+	animation: bob 1.5s infinite alternate;
+}
+ul.work {
+	list-style-type: none;
+	font-size: 10pt;
+	background: white;
+	display: inline-block;
+	font-style: italic;
+	padding: 7px;
+	margin: 7px;
+	animation: bob 1.2s infinite alternate-reverse;
+}
+ul.responses {
+	list-style-type: none;
+	font-size: 10pt;
+	background: white;
+	display: inline-block;
+	font-style: italic;
+	padding: 7px;
+	margin: 7px;
+	animation: bob 1.5s infinite alternate-reverse;
 }
 h1 {
 	color: #4c4cf3;
@@ -37,4 +58,13 @@ img.rr {
 	border: 10px ridge white;
 	padding: 5px;
 	background-color: black;
+}
+
+@keyframes bob {
+	0% {
+		transform: translateY(-5px);
+	}
+	100% {
+		transform: translateY(5px);
+	}
 }
