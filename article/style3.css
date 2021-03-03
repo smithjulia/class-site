@@ -1,0 +1,99 @@
+@font-face {
+	font-family: 'Chromium One Std';
+	src: url('COSR.otf') format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background-color: #020202;
+	margin:70px;
+	color: white;
+	font-family: 'Helvetica';
+	border: 10px dotted cornsilk;
+	padding: 20px;
+}
+
+ul {
+	font-size: 15px;
+	background-color: #EA1659;
+	color: white;
+	font-style:underline;
+	display:inline-block;
+	padding:5px;
+	border: 4px double white; 
+	border-radius: 10%;
+	list-style-type: none;
+	text-align:center;
+	line-height:20px;
+}
+h1 {
+	color:white;
+	font-family: 'Chromium One Std', sans-serif;
+	font-weight: lighter;
+	font-size: 34pt;
+	letter-spacing: 5pt;
+}
+h3 {
+	color:white;
+	font-family: 'Chromium One Std', sans-serif;
+	font-weight: lighter;
+	text-shadow: 1px 1px #EA1659;
+}
+h4 {
+	color: #EA1659;
+	font-size: smaller;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+img {
+	border: 10px outset #EA1659;
+	margin:10px;
+padding: 5px;
+	background-color: white;
+	width: 200px;
+	border-radius: 10%;
+	animation: bob 1s infinite alternate;
+}	
+
+hr {
+	border-color: #f6f3e8;
+	border-width: 3px;
+	border-style: dotted;
+	width: 100%;
+}
+
+p.answer {
+	color: #020202;
+	background-color: #f6f3e8;
+	display: inline-block;
+	border: 10px double #EA1659;
+	border-radius: 10%;
+	padding: 30px 20px 30px 20px;
+	margin-top:5px;
+	font-weight: bolder;
+	margin-bottom:10px;
+	width: 66vw;
+}
+p.q {
+	font-size: 27px;
+	text-shadow: white 1px 1px;
+	display: inline-block;
+	color: #0c0c0c;
+	font-style: bolder;
+	text-transform: uppercase;
+}
+.emphasis {
+	color:#EA1659;
+	font-weight: bolder;
+	font-size: larger;
+	font-family: 'Eczar', serif;
+}
+
+@keyframes bob {
+	0% {
+		transform:translateY(-10px);
+	}
+	100% {
+		transform: translateY(10px);
+}
