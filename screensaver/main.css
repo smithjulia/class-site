@@ -6,7 +6,7 @@ body {
     background-size: 2000% 2000%;
 	font-family: 'px sans nouveaux';
 	font-size:8pt;
-	animation: gradient 30s linear infinite;
+	animation: gradient 60s linear infinite;
 }
 
 .window {
@@ -23,7 +23,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	animation: gradient 30s linear infinite;
+	animation: gradient 61s linear infinite;
 }
 
 .headbar {
@@ -33,7 +33,7 @@ body {
 	height:5%;
 	color: white;
 	padding: 0.5px 0px 0px 5px;
-	animation: gradient 30s linear infinite;
+	animation: gradient 60s linear infinite;
 }
 .insidebox {
 	background: linear-gradient(180deg, #C0C0C0, #C0C0C0, #8098B0, #C0C0C0, #D0B1B8, #D0B1B8, #9DB9C8,  #C0C0C0, #C0C0C0, #E0E0A0, #A2C8A9, #C0C0C0, #C0C0C0);
@@ -47,7 +47,7 @@ body {
 	font-size: 7pt;
 	display: flex;
 	flex-direction: column;
-	animation: gradient 30s linear infinite;
+	animation: gradient 62s linear infinite;
 }
 .scroll {
 	background-color: white;
@@ -70,7 +70,7 @@ body {
 	left: 0px;
 	border: outset 2px;
 	border-color: white black black white;
-	animation: gradient 30s linear infinite;
+	animation: gradient 62s linear infinite;
 }
 
 
@@ -87,7 +87,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	animation: gradient 30s linear infinite;
+	animation: gradient 63s linear infinite;
 }
 
 
