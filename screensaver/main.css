@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: linear-gradient(180deg, #038080, #038080, #000000, #030042, #808080, #808080, #414141, #000000, #004040, #00401D, #223f22, #038080, #038080);
+    background-size: 2000% 2000%;
+	font-family: 'px sans nouveaux';
+	font-size:8pt;
+	animation: gradient 30s linear infinite;
+}
+
+.window {
+	background: linear-gradient(180deg, #C0C0C0, #C0C0C0, #8098B0, #C0C0C0, #D0B1B8, #D0B1B8, #9DB9C8,  #C0C0C0, #C0C0C0, #E0E0A0, #A2C8A9, #C0C0C0, #C0C0C0);
+	background-size: 2000% 2000%;
+	width: 40vw;
+	height: 70%;
+	position: absolute;
+	left:20vw;
+	top:10%;
+	border: outset 2px;
+	border-color: white black black white;
+	padding: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	animation: gradient 30s linear infinite;
+}
+
+.headbar {
+	background: linear-gradient(180deg, #282A74, #282A74, #4F647E, #800202, #A06170, #A06170, #558197,  #800080, #038080, #808000, #808000, #599764, #282A74, #282A74);
+	background-size: 6000% 6000%;
+	width: 100%;
+	height:5%;
+	color: white;
+	padding: 0.5px 0px 0px 5px;
+	animation: gradient 30s linear infinite;
+}
+.insidebox {
+	background: linear-gradient(180deg, #C0C0C0, #C0C0C0, #8098B0, #C0C0C0, #D0B1B8, #D0B1B8, #9DB9C8,  #C0C0C0, #C0C0C0, #E0E0A0, #A2C8A9, #C0C0C0, #C0C0C0);
+	background-size: 2000% 2000%;
+	width: 98%;
+	height: 90%;
+	margin:10px 0px 5px 0px;
+	border: outset 2px;
+	border-color: white black black white;
+	padding: 10px 10px 10px 15px;
+	font-size: 7pt;
+	display: flex;
+	flex-direction: column;
+	animation: gradient 30s linear infinite;
+}
+.scroll {
+	background-color: white;
+	width: 90%;
+	height: 70%;
+	margin: 3px;
+	display:flex;
+	flex-flow: wrap;
+	flex-direction: row;
+	justify-content: flex-end;
+	border: 1px inset black;
+}
+
+.scrollbar {
+	background: linear-gradient(180deg, #C0C0C0, #C0C0C0, #8098B0, #C0C0C0, #D0B1B8, #D0B1B8, #9DB9C8,  #C0C0C0, #C0C0C0, #E0E0A0, #A2C8A9, #C0C0C0, #C0C0C0);
+	background-size: 2000% 2000%;
+	width: 5%;
+	height: 20%;
+	position: relative;
+	left: 0px;
+	border: outset 2px;
+	border-color: white black black white;
+	animation: gradient 30s linear infinite;
+}
+
+
+.toolbar {
+	background: linear-gradient(180deg, #C0C0C0, #C0C0C0, #8098B0, #C0C0C0, #D0B1B8, #D0B1B8, #9DB9C8,  #C0C0C0, #C0C0C0, #E0E0A0, #A2C8A9, #C0C0C0, #C0C0C0);
+	background-size: 2000% 2000%;
+	width: 100%;
+	height: 5%;
+	position: absolute;
+	bottom: 0px;
+	left: -1px;
+	border: outset 2px;
+	border-color: white transparent black transparent;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	animation: gradient 30s linear infinite;
+}
+
+
+@keyframes gradient {
+	 0%{
+	 	background-position:0% 0%
+	 }
+	 100% {
+	 	background-position: 0% 100%;
+	 }
+}
+@font-face {
+font-family: 'px sans nouveaux';
+	src: url('msans.ttf') format("truetype");
+}

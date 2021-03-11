@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+  margin: 20px;
+  color:purple ;
+}
+
+p {
+	margin: 0;
+	font-size:1rem;
+}
+
+.box {
+	background: yellow;
+	max-width: 900px;
+	min-height: 150px;
+	font-size:20px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.item {
+	background: purple;
+	width: 32%;
+	height: 200px;
+	margin-bottom:20px;
+}
+
+@media screen and (max-width:800px) {
+	.item {
+		width: 48%;
+	}
+}
