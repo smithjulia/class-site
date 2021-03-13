@@ -9,6 +9,13 @@ body {
 	animation: gradient 60s linear infinite;
 }
 
+/*.skewtainer {
+		animation: skewy 61s linear infinite;
+		width: 89%;
+		height: 89%;
+
+}*/
+
 .window {
 	background: linear-gradient(180deg, #C0C0C0, #C0C0C0, #8098B0, #C0C0C0, #D0B1B8, #D0B1B8, #9DB9C8,  #C0C0C0, #C0C0C0, #E0E0A0, #A2C8A9, #C0C0C0, #C0C0C0);
 	background-size: 2000% 2000%;
@@ -99,6 +106,14 @@ body {
 	 	background-position: 0% 100%;
 	 }
 }
+/*@keyframes skewy {
+	0% {
+		transform: skew(0deg);
+	}
+	100% {
+		transform: skew(36deg);
+	}
+}*/
 @font-face {
 font-family: 'px sans nouveaux';
 	src: url('msans.ttf') format("truetype");
