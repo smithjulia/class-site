@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+*::selection {
+	background-color:yellow;
+}
+body {
+  margin: 15px;
+  background-color: cornsilk;
+  color: darkslategrey;
+
+}
+
+
+#box {
+	height: 100%;
+	background: tan;
+	width: 400px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	font-size: 25px;
+	padding: 25px;
+	transition: right, .5s;
+}
+
+
+.active {
+	transform: rotate(39deg);
+}
+.button {
+	background: honeydew;
+	cursor: pointer;
+	padding: 3px;
+	width:50px;
+}
+.button:hover {
+	background: grey;
+}
