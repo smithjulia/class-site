@@ -23,11 +23,19 @@ body {
 	position: fixed;
 	top:0;
 }
+.webcontain {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	flex-flow: nowrap row;
+
+}
 .webpage {
 	display: block;
 	width: 65%;
 	position:relative;
 	top:55vh;
+	float:right;
 	flex-flow: wrap column;
 	/*justify-content: center;
 	align-items: center;*/
@@ -37,6 +45,25 @@ body {
 	padding: 0px 10px 0px 10px;
 	color: white;
 	overflow: hidden;
+	order: 2;
+}
+.menu {
+	display: block;
+	width:20%;
+	margin: 10px;
+	position:relative;
+	top:55vh;
+	float: left;
+	flex-flow: wrap column;
+	/*justify-content: center;
+	align-items: center;*/
+	z-index: -1;
+	background-color: #424242;
+	border: 10px double #ffb8dc;
+	padding: 0px 10px 0px 10px;
+	color: white;
+	overflow: hidden;
+	order: 1;
 }
 img.toolbars {
 	height: 45vh;
@@ -61,7 +88,7 @@ h1 {
 .ad {
 	width: 65%;
     position: relative;
-    top: 55vh;
+    top: 45vh;
     z-index: -1;
     padding:10px;
 }
@@ -78,4 +105,19 @@ h1 {
     }
 }
 
+@media (max-width:1000px) {
+	.ad {
+		width: 80vw;
+	}
+	.webpage, .menu{	
+		top:45vh;
+	}
+}
+@media (max-width: 800px){
+	.webpage {
+		width:55%
+	}
+	.menu {
+		width:30%
+	}
 }
