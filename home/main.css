@@ -18,18 +18,21 @@ ul {
 	width: 100vw;
 	height: 100%;
 	align-content: center;
+	/*z-index: -3;*/
 }
 .toolbar {
 	display: flex;
 	flex-flow: nowrap column;
 	position: fixed;
 	top:0;
+	z-index: 1;
 }
 .webcontain {
 	width: 100vw;
 	display: flex;
 	justify-content: center;
 	flex-flow: nowrap row;
+	/*z-index: -3;*/
 }
 .webpage {
 	display: block;
@@ -39,7 +42,7 @@ ul {
 	flex-flow: wrap column;
 	/*justify-content: center;
 	align-items: center;*/
-	z-index: -1;
+	/*z-index: -1;*/
 	background-color: #424242;
 	border: 10px double #ffb8dc;
 	padding: 0px 10px 0px 10px;
@@ -58,7 +61,6 @@ ul {
 	padding: 5px;
 	justify-content: center;
 	align-items: center;
-	z-index: -1;
 	font-size: 18pt;
 	background-color: #ffb8dc;
 	border: 10px double #424242;
@@ -69,10 +71,9 @@ ul {
 	overflow: hidden;
 	order: 1;
 }
-div.menu
-	a:link { color: black; }
 a {
 	color: magenta;
+	/*z-index: 2;*/
 }
 img.toolbars {
 	height: 45vh;
@@ -101,7 +102,7 @@ h1 {
     position: relative;
     top: 45vh;
     padding:10px 0px 0px 0px;
-    z-index: -1;
+ 
 }
 
 img.fade-in {
