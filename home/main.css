@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-  background: url("bg5.gif") repeat;
+  background: url("images/bg5.gif") repeat;
   margin: 0;
   font-family: arial;
   display: flex;
@@ -28,14 +28,12 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-flow: nowrap row;
-
 }
 .webpage {
 	display: block;
 	width: 65%;
 	position:relative;
-	top:55vh;
-	float:right;
+	top:48vh;
 	flex-flow: wrap column;
 	/*justify-content: center;
 	align-items: center;*/
@@ -48,22 +46,31 @@ body {
 	order: 2;
 }
 .menu {
-	display: block;
+	display: flex;
 	width:20%;
-	margin: 10px;
+	margin: 15px;
+	height: 40vh;
 	position:relative;
-	top:55vh;
-	float: left;
-	flex-flow: wrap column;
-	/*justify-content: center;
-	align-items: center;*/
+	top:50vh;
+	flex-flow: nowrap column;
+	padding: 5px;
+	justify-content: center;
+	align-items: center;
 	z-index: -1;
-	background-color: #424242;
-	border: 10px double #ffb8dc;
+	font-size: 18pt;
+	background-color: #ffb8dc;
+	border: 10px double #424242;
 	padding: 0px 10px 0px 10px;
-	color: white;
+	color: magenta;
+	text-shadow: 1px 1px white;
+	font-style: italic;
 	overflow: hidden;
 	order: 1;
+}
+div.menu
+	a:link { color: black; }
+a {
+	color: magenta;
 }
 img.toolbars {
 	height: 45vh;
@@ -73,7 +80,7 @@ img.toolbars {
 
 img.site {
 	position: relative;
-	width:15vw;
+	width:20vw;
 }
 .icon {
 	   animation: marquee
@@ -83,17 +90,23 @@ img.site {
 h1 {
 	font-family: 'quicksand', sans-serif;
 	font-weight: 400;
+	font-size:4vw;
+	padding: 0px 0px 0px 20px;
+	overflow: nowrap;
 }
 
-.ad {
-	width: 65%;
+#banner-images {
     position: relative;
     top: 45vh;
+    padding:10px 0px 0px 0px;
     z-index: -1;
-    padding:10px;
 }
 
-
+img.fade-in {
+	width: 65vw;
+	height:13vh;
+	border: 5px ridge white;
+}
 
 @keyframes marquee {
     0% {
@@ -105,19 +118,19 @@ h1 {
     }
 }
 
-@media (max-width:1000px) {
-	.ad {
+@media (max-width:800px) {
+	img.fade-in {
 		width: 80vw;
 	}
 	.webpage, .menu{	
 		top:45vh;
 	}
 }
-@media (max-width: 800px){
+@media (max-width: 600px){
 	.webpage {
 		width:55%
 	}
 	.menu {
-		width:30%
+		width:30vw
 	}
 }

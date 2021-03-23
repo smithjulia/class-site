@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/piy7ufw.css">
 	<link rel="stylesheet" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<!-- SCM Music Player https://www.scmplayer.net -->
@@ -20,34 +21,35 @@ data-config="{'skin':'skins/aquaPink/skin.css','volume':31,'autoplay':true,'shuf
 
 
 	<div class="toolbar">
-		<img src="toolbars.png" class="toolbars">
+		<img src="images/toolbars.png" class="toolbars">
 	</div>
-	<center><img src="gif7.gif" class="ad"></center>
+	<center><div id="banner-images"></div></center>
 <div class="webcontain">
+
 <div class="webpage">
 	
-	<br><h1> welcome to my page</h1>
+	<br><h1>welcome to my page ♡  </h1>
 	<center>	
 	<br>
-	<img src="jackass.gif" class="site"><br><br><br>
+	<img src="images/jackass.gif" class="site"><br><br><br>
 
 	<div class="icon">
-	<img src="gif1.gif" >
-	<img src="gif2.png" >
-	<img src="gif3.jpeg" >
-	<img src="gif4.gif" >
-	<img src="gif5.gif" >
-	<img src="gif6.gif" >
-</div>
-me use imetnernet<br>
+	<img src="images/gif1.gif" >
+	<img src="images/gif2.png" >
+	<img src="images/gif3.jpeg" >
+	<img src="images/gif4.gif" >
+	<img src="images/gif5.gif" >
+	<img src="images/gif6.gif" >
+</div><br>
+heyy its me! julia!! welcome to my webpage :D<br><br>
 
 <div class="icon">
-	<img src="gif8.gif" >
-	<img src="pb11.gif">
-	<img src="pb30.jpg" >
-	<img src="pb23.png" >
-	<img src="pb33.png" >
-	<img src="pb77.gif" >
+	<img src="images/gif8.gif" >
+	<img src="images/pb11.gif">
+	<img src="images/pb30.jpg" >
+	<img src="images/pb23.png" >
+	<img src="images/pb33.png" >
+	<img src="images/pb77.gif" >
 </div><br>
 <table bgcolor="#4B0082" border=1 width="50%"><tr><td><center><font color="#FFFFFF"><big>you are indigo</big><br>#4B0082</font></center></td></tr><tr><td bgcolor="#000000"><center><font color="#FFFFFF" size=-1><br>Your dominant hues are blue and magenta.  You're the one who goes to all the parties but doesn't quite fit in at every one... you know what you want, but are afraid of what the world might think of it.  You're a little different and that's okay with them, and if you're smart it's okay with you too.<br><br>Your saturation level is very high - you are all about getting things done.  The world may think you work too hard but you have a lot to show for it, and it keeps you going.  You shouldn't be afraid to lead people, because if you're doing it, it'll be done right.<br><br>Your outlook on life can be bright or dark, depending on the situation.  You are flexible and see things objectively.<br></font></center></td></tr><tr><td><center><a href="http://spacefem.com/quizzes/colors">the spacefem.com html color quiz</a></center></td></tr></table>
 <br>
@@ -70,8 +72,12 @@ me use imetnernet<br>
 
 </center>
 </div>
-<div class="menu"></div></div>
+<div class="menu"><br><a href="#">home</a><br><a href="/about">about me</a><br><a href="/links">links</a><br><a href="/fun">cool stuff!</a></div></div>
 	</div>
-
+<script> 
+var images = ['gif7.gif', 'ad2.gif', 'ad3.gif', 'ad4.gif', 'ad5.gif', 'ad6.gif', 'ad7.gif', 'ad8.gif', 'ads9.gif', 'ads10.gif', 'ads11.gif', 'ads12.gif', 'ads13.gif', 'ad14.gif'];
+ 
+$('<img class="fade-in" src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-images');
+</script>
 </body>
 </html>
