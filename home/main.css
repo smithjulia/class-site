@@ -72,8 +72,11 @@ ul {
 	order: 1;
 }
 a {
-	color: magenta;
+	color: black;
 	/*z-index: 2;*/
+}
+a:hover {
+	color: magenta;
 }
 img.toolbars {
 	height: 45vh;
@@ -113,7 +116,7 @@ img.fade-in {
 
 img.selfy {
 	float:right;
-	width: 40%;
+	width: 30%;
 	padding: 10px;
 }
 
@@ -139,7 +142,7 @@ p.bio {
 		top:45vh;
 	}
 	img.selfy {
-		width:60%;
+		width:40%;
 	}
 		.menu {
 		width:25vw
@@ -153,6 +156,6 @@ p.bio {
 		width:30vw
 	}
 	img.selfy {
-		width:80%;
+		width:60%;
 	}
 }
