@@ -100,7 +100,13 @@ h1 {
 	padding: 0px 0px 0px 20px;
 	overflow: nowrap;
 }
+.fun {
+	   animation: marqueefun
+	    14s linear 0s infinite;
+	   white-space: nowrap;
+	   display: inline-block;
 
+}
 #banner-images {
     position: relative;
     top: 45vh;
@@ -124,6 +130,14 @@ p.bio {
 	padding: 10px;
 }
 
+.counter {
+	position: fixed;
+	top:56vh;
+	left: 2px;
+	border: 3px solid #03A3C6;
+	border-radius: 10%;
+}
+
 @keyframes marquee {
     0% {
         transform: translate(650px,0)
@@ -131,6 +145,16 @@ p.bio {
 
     100% {
        transform: translate(-750px,0)
+    }
+}
+
+@keyframes marqueefun {
+    0% {
+        transform: translate(600px,0)
+    }
+
+    100% {
+       transform: translate(-900px,0)
     }
 }
 
