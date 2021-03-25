@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>HOT LINKS</title>
+<title></title>
 	<link rel="icon" href="images/smug.gif" type="image/x-icon"/>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,14 @@
   <link rel="stylesheet" href="https://use.typekit.net/piy7ufw.css">
 	<link rel="stylesheet" href="main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>(function titleScroller(text) {
+    document.title = text;
+    console.log(text);
+    setTimeout(function () {
+        titleScroller(text.substr(1) + text.substr(0, 1));
+    }, 500);
+}(" HOT LINKS "));</script>
 </head>
 <body>
 <!-- SCM Music Player https://www.scmplayer.net -->
