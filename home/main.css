@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-  background: url("images/bg5.gif") repeat;
+  background: url("images/bg7.gif") repeat;
   margin: 0;
   font-family: arial;
   display: flex;
@@ -11,6 +11,13 @@ body {
 }
 ul {
 	columns: 2;
+}
+ul.links {
+	columns: 1;
+	list-style-type: none;
+}
+.bears {
+	width:50%;
 }
 .container {
 	display: flex;
@@ -100,6 +107,11 @@ h1 {
 	padding: 0px 0px 0px 20px;
 	overflow: nowrap;
 }
+
+.links {
+	text-align: right;
+}
+
 .fun {
 	   animation: marqueefun
 	    14s linear 0s infinite;
@@ -128,6 +140,15 @@ img.selfy {
 
 p.bio {
 	padding: 10px;
+}
+
+.linkies {
+	color: cornsilk;
+	font-style: italic;
+}
+
+.linkies:hover {
+	color: magenta;
 }
 
 .counter {
