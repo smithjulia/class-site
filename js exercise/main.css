@@ -1,6 +1,13 @@
 * {
-	box-sizing: border-box;
+  box-sizing:border-box;
 }
+
 body {
-  margin: 0;
+  margin:0;
 }
+
+  #droppable { 
+  	width: 100vw;
+  	height: 100vh;
+  	z-index: -1;
+  }

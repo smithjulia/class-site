@@ -1,0 +1,170 @@
+* {
+	box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #171007;
+}
+
+.flicker {
+		width: 140px;
+		height: 80px;
+		transform: perspective(400px) rotateX(20deg) skewX(1deg);
+		background: #79878e;
+		position: fixed;
+		top: 10vh;
+		left: 25vw;
+		margin-top: -5px;
+		margin-left: -125px;
+		border-radius: 0 0 40% 0%;
+		filter: blur(10px);
+			box-shadow: 9px 9px 200px 200px #565d5e;
+	}
+
+	.flickerbg {
+		width: 66vw;
+		height: 66%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #3e3f3d;
+		border-radius: 0 0 40% 0%;
+		filter: blur(9px);
+		box-shadow: 9px 9px 200px 200px #302e29;
+
+	}
+
+	.flickerbgf {
+		width: 100vw;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #302e29;
+		border-radius: 0 0 40% 0%;
+		filter: blur(9px);
+		box-shadow: 9px 9px 200px #231e17;
+
+	}
+
+.dscontain {
+	width: 40vw;
+	height:50vh;
+	position: absolute;
+	bottom: 0;
+	right:10vw;
+}
+.ds {
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	filter:blur(1px);
+}
+
+.mariotop {
+	width: 40%;
+	height: 33%;
+	position: absolute;
+	bottom: 59%;
+	right: 30%;
+	transform: perspective(400px) rotateX(20deg);
+	opacity: 1;
+	filter: blur(1px);
+	z-index: 0;
+}
+  @media only screen and (max-width: 1400px) {
+  .mariotop {
+  	bottom: 60%;
+  }
+  .dscontain {
+  	height: 45vh;
+  }
+  }
+
+  @media only screen and (max-width: 1300px) {
+  .mariotop {
+  	bottom: 61%;
+  }
+  .dscontain {
+  	height: 45vh;
+  }
+  }
+
+  @media only screen and (max-width: 1200px) {
+  .mariotop {
+  	bottom: 60%;
+  }
+  .dscontain {
+  	height: 44vh;
+  }
+  }
+  @media only screen and (max-width: 1100px) {
+  .mariotop {
+  	bottom: 61%;
+  }
+  .dscontain {
+  	height: 42vh;
+  }
+  }
+  @media only screen and (max-width: 1000px) {
+  .mariotop {
+  	bottom: 61%;
+  	transform: scale(0.95);
+  }
+
+  .dscontain {
+  	height: 40vh;
+  }
+  }
+   @media only screen and (max-width: 900px) {
+  .mariotop {
+  	bottom: 65%;
+  	transform: scale(0.9);
+  }
+  .dscontain {
+  	height: 38vh;
+  }
+  }
+    @media only screen and (max-width: 800px) {
+  .mariotop {
+  	transform: scale(0.8);
+  	bottom: 63%;
+
+  }
+  .dscontain {
+  	height: 36vh;
+  }
+  }
+  @media only screen and (max-width: 700px) {
+  .mariotop {
+  	transform: scale(0.8);
+  	bottom: 65%;
+
+  }
+  .dscontain {
+  	height: 36vh;
+  }
+  }
+  @media only screen and (max-width: 600px) {
+  .mariotop {
+  	transform: scale(0.75);
+  	bottom: 69%;
+
+  }
+  .dscontain {
+  	height: 36vh;
+  }
+  }
+   
+  @media only screen and (max-width: 400px) {
+  .mariotop {
+  	bottom: 69%;
+  
+  }
+  .dscontain {
+  	height: 36vh;
+  	right:30vw;
+  	transform: scale(2);
+  	z-index: 3;
+  }
+  }
