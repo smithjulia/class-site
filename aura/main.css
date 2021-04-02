@@ -5,6 +5,13 @@ body {
   margin: 0;
   background: #171007;
 }
+.player {
+	display: hidden;
+	width: 1px;
+	height: 1px;
+}
+
+
 
 .flicker {
 		width: 140px;
