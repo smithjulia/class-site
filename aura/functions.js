@@ -3,7 +3,7 @@ function getRandomInt(min, max) {
 }
 
 function callFlicker($target, size, color1, color2, color3){
-		var fastInterval 	= getRandomInt(1, 5) * 90;
+		var fastInterval 	= getRandomInt(1, 5) * 120;
 		var longInterval 	= getRandomInt(1, 20) * 45;
 		var afIntervals 	= getRandomInt(3, 6);
 		var alIntervals 	= getRandomInt(1, 3);
