@@ -72,6 +72,9 @@ body {
 	filter: blur(1px);
 	z-index: 0;
 }
+
+
+
   @media only screen and (max-width: 1400px) {
   .mariotop {
   	bottom: 60%;
