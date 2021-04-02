@@ -56,7 +56,7 @@ body {
 	bottom: 0;
 	right:10vw;
 }
-#banner-images {
+#banner-images{
 	width: 40vw;
 	height:47vh;
 	position: absolute;
@@ -64,6 +64,12 @@ body {
 	left:8vw;
 	transform: rotate(5deg);
 	z-index: 1;
+}
+
+#draggable {
+  position: absolute;
+  bottom: 0;
+  left:0;
 }
 img.fade-in, .ds {
 	width: 100%;
