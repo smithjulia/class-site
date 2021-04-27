@@ -39,3 +39,10 @@ a {
 .special:hover .hell {
 	display: block;
 }
+
+.pointin {
+	position: fixed;
+	top:40%;
+	left: 45%;
+	width: 100px;
+}
