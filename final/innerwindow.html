@@ -30,7 +30,8 @@
 </head>
 <body>
 <div class="flicker"></div>
-<center><img src="img/welcome.gif" class="welcome"><br><img src ="img/flowers.jpeg" width="300px" class="psalm"><center>
+<center><img src="img/welcome.gif" class="welcome"><br>
+  <div id="banner-images" width="300px"></div><center>
   <br><img src="img/cross.gif"><img src="img/rat.gif"><img src="img/cross.gif"><br>
   <div class="icon"> <img src="img/thygod.gif"> <img src="img/god2.gif"> <img src="img/jesus.gif"> <img src="img/thygod.gif"> <img src="img/god2.gif"> <img src="img/jesus.gif"> </div>
     <br>
@@ -54,5 +55,10 @@
 var days = ["Sunday","Smonday","Stuesday","Swednesday","Sthursday","Sfriday","Saturday"];
 document.getElementById("day-text").innerHTML = days[d.getDay()];
       </script>
+<script> 
+var images = ['grave.jpeg', 'kitty.jpeg', 'garden.jpeg', 'psalm.gif', 'psalm.jpeg'];
+ 
+$('<img class="fade-in" src="img/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-images');
+</script>
 </body>
 </html>

@@ -27,7 +27,7 @@ body {
 			box-shadow: 9px 9px 100px 100px #ffffff;
 	}
 
-img.psalm {
+#banner-images {
 	margin: 20vh auto auto auto;
 	animation: bob 1.5s infinite alternate;
 }
